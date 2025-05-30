@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px; /* Sidebar width */
+  background-color: #f8f9fa;
+  padding: 15px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  
+    padding-top: 20px;
+    background-color: #b5b4b4; /* Light gray */
+}
+
+.content {
+  margin-left: 240px; /* Push content to the right */
+  padding: 20px;
+  width: calc(100% - 220px); /* Adjust width to fit next to sidebar */
+}
